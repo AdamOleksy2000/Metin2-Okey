@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Metin2 Okey</title>
+    <meta name="description" content="Metin2 Okey pattern allowing to visualize your current Okey game">
+    <meta name="description" keywords content="metin2, okey, metin, metin 2, event">
+    <meta name="author" content="Adam Oleksy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="main.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Russo+One&family=Sora:wght@800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon2.png">
+    
+</head>
+<body>
+
+    
+    <main>
+        <div id="wraper"> 
+            <header>
+                <h1>Metin2 Okey minigame visualize pattern</h1>
+                <h2>Pick a certain card from Okey pack which you decided to drop</h2>
+            </header>
+            <section>
+            <article>
+            <div class="yellow_board" style="text-align: center">
+                <p>Yellow cards pack:</p>
+                <div class="y0" id="c0"></div>
+                <div class="y1" id="c1"></div>
+                <div class="y2" id="c2"></div>
+                <div class="y3" id="c3"></div>
+                <div class="y4" id="c4"></div>
+                <div class="y5" id="c5"></div>
+                <div class="y6" id="c6"></div>
+                <div class="y7" id="c7"></div>
+            </div>
+            
+            <div class="red_board" style="text-align: center">
+                <p>Red cards pack:</p>
+                <div class="r0" id="c8"></div>
+                <div class="r1" id="c9"></div>
+                <div class="r2" id="c10"></div>
+                <div class="r3" id="c11"></div>
+                <div class="r4" id="c12"></div>
+                <div class="r5" id="c13"></div>
+                <div class="r6" id="c14"></div>
+                <div class="r7" id="c15"></div>
+            </div>
+                
+            <div class="blue_board" style="text-align: center">
+                <p>Blue cards pack:</p>
+                <div class="b0" id="c16"></div>
+                <div class="b1" id="c17"></div>
+                <div class="b2" id="c18"></div>
+                <div class="b3" id="c19"></div>
+                <div class="b4" id="c20"></div>
+                <div class="b5" id="c21"></div>
+                <div class="b6" id="c22"></div>
+                <div class="b7" id="c23"></div>
+            </div>
+            <br>
+            <button id="refreshButton">Restart</button>
+            <br>
+            </article>
+            </section>
+        </div>
+        <div>
+        <article>
+            <h3>Cards combination:</h3>
+            <div id="tableContainer">
+            <table border="1" cellspacing="0" cellpadding="4" rules="all" style="margin:1em 1em 1em 0; border-style:solid; border-width:1px; border-collapse:collapse; empty-cells:show;">
+                <tbody><tr valign="center" style="border:1px; background: black; color:black;">
+                    <th>Cards with same value</th>
+                        <th>Points</th></tr>
+                            <tr align="center">
+                            <td width="442px">1 - 1 - 1
+                            </td>
+                            <td width="443px">20
+                            </td></tr>
+                    
+                            <tr align="center">
+                            <td>2 - 2 - 2
+                            </td>
+                            <td>30
+                            </td></tr>
+                    
+                            <tr align="center">
+                            <td>3 - 3 - 3
+                            </td>
+                            <td>40
+                            </td></tr>
+                    
+                            <tr align="center">
+                            <td>4 - 4 - 4
+                            </td>
+                            <td>50
+                            </td></tr>
+                    
+                            <tr align="center">
+                            <td>5 - 5 - 5
+                            </td>
+                            <td>60
+                            </td></tr>
+                    
+                            <tr align="center">
+                            <td>6 - 6 - 6
+                            </td>
+                            <td>70
+                            </td></tr>
+                    
+                            <tr align="center">
+                            <td>7 - 7 - 7
+                            </td>
+                            <td>80
+                            </td></tr>
+                    
+                            <tr align="center">
+                            <td>8 - 8 - 8
+                            </td>
+                            <td>90
+                            </td></tr>
+                    </tbody></table>
+            <table width="885px" border="2" cellspacing="0" cellpadding="4" rules="all" style="margin:1em 1em 1em 0; border-style:solid; border-width:1px; border-collapse:collapse; empty-cells:show;">
+                            <tbody><tr valign="center" style="border:1px; background: black; color:black;">
+                            <th>Cards with diffrent value
+                            </th>
+                            <th>Diffrent colour cards points
+                            </th>
+                            <th>Same colour cards points
+                            </th></tr>
+                            <tr align="center">
+                            <td width="295px">1 - 2 - 3
+                            </td>
+                            <td width="295px">10
+                            </td>
+                            <td width="295px">50
+                            </td></tr>
+                                
+                            <tr align="center">
+                            <td>2 - 3 - 4
+                            </td>
+                            <td>20
+                            </td>
+                            <td>60
+                            </td></tr>
+                                
+                            <tr align="center">
+                            <td>3 - 4 - 5
+                            </td>
+                            <td>30
+                            </td>
+                            <td>70
+                            </td></tr>
+                                
+                            <tr align="center">
+                            <td>4 - 5 - 6
+                            </td>
+                            <td>40
+                            </td>
+                            <td>80
+                            </td></tr>
+                                
+                            <tr align="center">
+                            <td>5 - 6 - 7
+                            </td>
+                            <td>50
+                            </td>
+                            <td>90
+                            </td></tr>
+                                
+                            <tr align="center">
+                            <td>6 - 7 - 8
+                            </td>
+                            <td>60
+                            </td>
+                            <td>100
+                            </td></tr>
+                </tbody></table>
+            </div>
+        </article>
+        </div>
+
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="okey.js"></script>
+</body>
+</html>

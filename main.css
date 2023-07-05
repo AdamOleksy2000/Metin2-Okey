@@ -1,0 +1,279 @@
+body
+{
+    margin: 0;
+    background-color:gray;
+    color: black;
+    font-family: 'Russo One', arial;
+    font-size: 28px;
+    /*background-image: url(images/wallpaper.jpg);*/
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: repeat-x;
+    background-attachment:fixed;
+}
+selektor
+{
+
+}
+h1
+{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+}
+h2
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 70px;
+}
+p
+{
+    font-size: 18px;
+    text-align: center;
+}
+.board
+{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: auto;
+}
+.y0
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/y0.png)
+}
+.y1
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/y1.png)
+}
+.y2
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/y2.png)
+}
+.y3
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/y3.png)
+}
+.y4
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/y4.png)
+}
+.y5
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/y5.png)
+}
+.y6
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/y6.png)
+}
+.y7
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/y7.png)
+}
+.r0
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/r0.png)
+}
+.r1
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/r1.png)
+}
+.r2
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/r2.png)
+}
+.r3
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/r3.png)
+}
+.r4
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/r4.png)
+}
+.r5
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/r5.png)
+}
+.r6
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/r6.png)
+}
+.r7
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/r7.png)
+}
+.b0
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/b0.png)
+}
+.b1
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/b1.png)
+}
+.b2
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/b2.png)
+}
+.b3
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/b3.png)
+}
+.b4
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/b4.png)
+}
+.b5
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/b5.png)
+}
+.b6
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/b6.png)
+}
+.b7
+{
+    width: 51px;
+    height: 67px;
+    display: inline-block;
+    margin: 3px;
+    background-image:url(images/b7.png)
+}
+.hidden
+{
+    background-image: url(images/okey.png)
+}
+.card
+{
+    cursor: hand;
+}
+#refreshButton
+{
+    color: black;
+    margin-left: 715px;
+    font-family: 'Russo One', arial;
+    width: 120px;
+    height: 30px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    background-color: black;
+    font-size: 20px;
+    border-color:darkgray;
+    
+}
+#wrapper
+{
+    background-color: aqua;
+}
+#tableContainer 
+{
+  display: flex;
+  justify-content: center;
+}
+
+#tableContainer table 
+{
+  margin: 1em auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+h3
+{
+    margin-top: 100px;
+    font-size: 50px;
+    text-align: center;
+}
